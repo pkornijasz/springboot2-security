@@ -10,7 +10,7 @@ public class TestApi {
 
     @GetMapping("/forAll")
     public String forAll() {
-        return "You have been logout";
+        return "forAll";
     }
 
     @GetMapping("/forUser")
